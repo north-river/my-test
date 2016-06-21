@@ -1,5 +1,6 @@
 (function () {
     "use strict";
+    console.log("add lines");
     kintone.events.on('app.record.index.show', function (event) {
         if (document.getElementById ('my_index_button') != null) {
             return;
