@@ -21,7 +21,7 @@
                         var record = resp.record;
                         alert(record["会社名"]["value"]);
                     },function(e){
-                        console.log("error:" + e.message);
+                        console.log("error-test:" + e.message);
                     }
                 );
         }
